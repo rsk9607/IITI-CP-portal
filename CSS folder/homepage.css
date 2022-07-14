@@ -4,7 +4,11 @@
     color:white;
     text-shadow: 3px 1px 10px black;
 
-}.part4{
-    background-image: url();
+}
+
+.part4{
+    background-image: url("C:/Users/RSK Akash/Desktop/IITI SoC'22/IITI-CP-portal/raw/part4.jpg");
+    background-repeat: no-repeat;
+    background-size:contain;
 }
 
