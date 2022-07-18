@@ -46,7 +46,8 @@ nav a {
     font: bold;
     color:black;
     text-shadow: 3px 1px 10px black;
-
+    padding-top: 20%;
+    padding-bottom: 20%;
 }
 
 .bored{
@@ -65,6 +66,8 @@ nav a {
     background-color: cyan;
     background-repeat: no-repeat;
     background-size:contain;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 .img4{
@@ -101,16 +104,20 @@ padding:30px 80px 30px 80px;
 text-align:center;
   }
 
-.box2{
-  font-size:25px;
+.part-raw{
+  background-color:rgb(255,204,220);
+  font-size:30px;
   text-align:center;
-  padding:150px 40px 150px 40px;
-  margin:-15px -8px -1px -8px;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  margin:auto;
+  font-family: sans-serif;
 }
 
-.color2{
-  background-color:rgb(255,204,220);
+.input{
+  font-size: 25px;
 }
+
 footer {
   background-color: #333;
   overflow: hidden;
@@ -122,6 +129,5 @@ footer a {
   text-align: center;
   float: left;
   color: white;
-  
 }
 
