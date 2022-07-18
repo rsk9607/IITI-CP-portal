@@ -6,13 +6,33 @@ body{
   width:fit-content
 }
 
+
+/*######## sajan part #######*/
+
+.part1{
+  background-color:#f1f0e3;
+
+}
+
+h1{
+  color: #898165;
+  font-size:100px;
+  font-weight: bold;
+  font-family: Georgia;
+}
+
+h2{
+  color: #e7d1b2;
+  font-size: 50px;
+}
+
 /*######## rsk part ######*/
 
 .part3{
     background-color: rgb(247, 255, 3);
     background-size: cover;
     font: bold;
-    color:white;
+    color:black;
     text-shadow: 3px 1px 10px black;
 
 }
@@ -61,7 +81,7 @@ body{
     text-align:center;
     padding:30px 180px 10px 190px;
     margin:auto;
-    font-size:25px;
+    font-size:15px;
   }
 
 .space{
