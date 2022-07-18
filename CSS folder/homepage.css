@@ -8,9 +8,10 @@
 }
 
 .part4{
-    background-color: grey;
+    background-color: cyan;
     background-repeat: no-repeat;
     background-size:contain;
+    margin: 1%;
 }
 
 .boxc1{
