@@ -1,10 +1,12 @@
+/*######## default ######*/
+
 body{
   line-height: 1;
   margin: 0%;
   width:fit-content
 }
 
-
+/*######## rsk part ######*/
 
 .part3{
     background-color: rgb(247, 255, 3);
@@ -42,9 +44,7 @@ body{
 
 }
 
-*{
-  box-sizing: border-box;
-}
+/*###### saiteja #####*/
 
 .boxc1{
     background-color:rgb(64,64,64);
