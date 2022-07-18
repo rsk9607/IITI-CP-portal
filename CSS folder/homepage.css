@@ -69,3 +69,16 @@ text-align:center;
   margin:-4px -8px -5px -8px;
 }
 
+.box2{
+  font-size:25px;
+  text-align:center;
+  padding:150px 40px 150px 40px;
+  margin:-15px -8px -1px -8px;
+  border-margin:solid;
+
+}
+
+.color2{
+  background-color:rgb(255,204,220);
+}
+
