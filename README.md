@@ -1,6 +1,1 @@
-# IITI-CP-portal
-
-
-This repo is our project
-happy to annonce that this is our website
-enjoy
+<h1><center>IIT INDORE'S CODING PLATFORM</center></h1>
