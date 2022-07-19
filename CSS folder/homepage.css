@@ -8,14 +8,7 @@ body{
 
 /* sajans part */
 
-.part1{
-  background-color: rgb(20,120,140);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  padding-top: 20%;
-  padding-bottom: 20%;
-}
+
 
 header {
   padding: 40px;
