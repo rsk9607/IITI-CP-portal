@@ -1,59 +1,124 @@
-<style>
-  .log0{
-    background-color:rgb(220,220,220);
-      text-align:left;
-      font-size:20px;
-      border-radius:20px;
-      margin:50px 350px 10px 350px;
-      padding:10px 20px 20px 100px;
-  }
-  .log1{
-    padding:0px 0px 30px 160px;
-  }
-.size1{
-  font-size:35px;
-  text-align:left;
-  padding:10px 3px 30px 120px;
-}
-.size2{
-    font-size:30px;
-    }
-    .log3{
-      font-size:20px;
-      text-align:left;
-      padding:20px 10px 10px 0px;
-    }
-    .log4{
-            background-color:rgb(255,102,175);
-            border-radius:10px;
-            margin:10px 200px 20px 100px;
-            padding:0px 10px 0px 100px;
-      }
-    .bg{
-      background-color:rgb(153,204,255);
-    }
-</style>
+<!DOCTYPE html>
 <html>
 <head>
-  <title>Sign Up</title>
-  </head>
-  <body class="bg">
-<form class="log0">
-      <h3><div class="size1">IITI CP-Portal</div>
-        <div class="log1">SIGN UP</div>
-    <div>Email</div>
-    <input class="size2" type="login"/>
-    <div>User-Name</div>
-    <input class="size2" type="login"/>
-        <div>Password</div>
-    <input class="size2" type="password"/>
-    <div style="font-size:10px;">Must contain special characters(e.g:@,_,*,etc.,)</div>
-    <div>Re-Enter Password</div>
-<input class="size2" type="password"/>
-    <div class="log3"><input name="btn" type="checkbox"/>Save details</div>
-<div class="log4"><a href=login.html"><p style="color :rgb(200,200,200);">Sign Up</p></a></div>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+  font-family: Arial;
+  font-size: 17px;
+  padding: 8px;
+}
 
-</h3>
-</form>
-    </body>
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  margin: 0 -16px;
+}
+
+.col-25 {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+}
+
+.col-50 {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+}
+
+.col-75 {
+  -ms-flex: 75%; /* IE10 */
+  flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+  padding: 0 16px;
+}
+
+.container {
+  background-color: #33323283;
+  padding: 5px 20px 15px 20px;
+  border: 1px solid rgb(114, 220, 252);
+  border-radius: 3px;
+}
+
+
+input[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid rgb(113, 253, 253);
+  border-radius: 3px;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+
+a {
+  color: #2196F3;
+}
+
+hr {
+  border: 1px solid lightgrey;
+}
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+</style>
+</head>
+<body style="padding:250px;background-image:url('pexels-henry-&-co-1939485.jpg');background-repeat: none;background-size: cover;">
+
+
+
+<div class="row">
+  <div class="col-75">
+    <div class="container">
+      <form action="/action_page.php">
+      
+        <div class="row">
+          <div class="col-50">
+            <h3>Sign Up</h3>
+            <label for="fname"><i class="fa-user"></i> Full Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Name">
+            <label for="email"><i class="fa-envelope"></i> Email</label>
+            <input type="text" id="email" name="email" placeholder="example@example.com">
+            
+            
+
+            <div class="row">
+              <div class="col-50">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" placeholder="symbols are not allowed">
+              </div>
+              <div class="col-50">
+                <label for="password" class="size1">Password</label>
+                <input type="password" id="password" name="password" >
+              </div>
+            </div>
+          </div>
+
+          
+        </div>
+        
+      </form>
+    </div>
+  </div>
+</div>
+
+</body>
 </html>
