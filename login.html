@@ -1,54 +1,44 @@
-<style>
-  .log0{
-    background-color:rgb(220,220,220);
-      text-align:left;
-      font-size:20px;
-      border-radius:20px;
-      margin:50px 350px 10px 350px;
-      padding:10px 20px 20px 100px;
-  }
-  .log1{
-    padding:0px 0px 30px 160px;
-  }
-.size1{
-  font-size:35px;
-  text-align:left;
-  padding:10px 3px 30px 120px;
-}
-.size2{
-    font-size:30px;
-    }
-    .log3{
-      font-size:20px;
-      text-align:left;
-      padding:20px 10px 10px 0px;
-    }
-    .log4{
-            background-color:rgb(255,102,175);
-            border-radius:10px;
-            margin:10px 200px 20px 100px;
-            padding:0px 10px 0px 100px;
-      }
-    .bg{
-      background-color:rgb(153,204,255);
-    }
-</style>
+<!DOCTYPE html>
 <html>
 <head>
-  <title>Login</title>
-  </head>
-  <body class="bg">
-<form class="log0">
-      <h3><div class="size1">IITI CP-Portal</div>
-        <div class="log1">LOGIN</div>
-    <div>User-Name</div>
-    <input class="size2" type="login"/>
-    <div>Password</div>
-    <input class="size2" type="password"/>
-    <div class="log3"><input name="btn" type="checkbox"/>Remember me?</div>
-<div class="log4"><a href="home1.html"><p style="color :rgb(200,200,200);">Sign in</p></a></div>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="CSS folder/login.css">
+</head>
+<body style="background-image: url('./raw/signupbackground.jpeg')">
+<div class="row">
+  <div class="col-75">
+    <div class="container">
+      <form action="/action_page.php">
+        <div class="row">
+          <div class="col-50">
+            <h2>Login</h2>
+            <label for="fname">
+              <i class="fa-user">
+                User Name
+              </i>
+            </label>
+            <input type="text" id="fname" name="Username" placeholder="User Name">
+            <label for="Password">
+              <i class="fa-envelope"> 
+                Password
+            </i>
+          </label>
+            <input type="password" id="email" name="Password" placeholder="Password">
+                <button type="submit">
+                  Login
+                </button>
+              </div>
+            </div>
+          </div>
 
-</h3>
-</form>
-    </body>
+          
+        </div>
+        
+      </form>
+    </div>
+  </div>
+</div>
+
+</body>
 </html>
