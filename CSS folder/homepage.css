@@ -1,15 +1,15 @@
 /*######## default ######*/
 
-body{
+body {
   line-height: 1;
   margin: 0%;
-  width:fit-content
+  width: fit-content
 }
 
 /* sajans part */
 
-.part1{
-  background-color: rgb(20,120,140);
+.part1 {
+  background-color: rgb(20, 120, 140);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -25,6 +25,7 @@ header {
   color: aliceblue;
   text-shadow: 2px 2px 2px black;
 }
+
 nav {
   background-color: #333;
   overflow: hidden;
@@ -40,37 +41,37 @@ nav a {
 
 /*######## rsk part ######*/
 
-.part3{
-    background-color: rgb(247, 255, 3);
-    background-size: cover;
-    font: bold;
-    color:black;
-    text-shadow: 3px 1px 10px black;
-    padding-top: 20%;
-    padding-bottom: 20%;
+.part3 {
+  background-color: rgb(247, 255, 3);
+  background-size: cover;
+  font: bold;
+  color: black;
+  text-shadow: 3px 1px 10px black;
+  padding-top: 20%;
+  padding-bottom: 20%;
 }
 
-.bored{
+.bored {
   font-size: 100px;
 }
 
-.woory{
+.woory {
   font-size: 80px;
 }
 
-.join{
+.join {
   font-size: 120px;
 }
 
-.part4{
-    background-color: cyan;
-    background-repeat: no-repeat;
-    background-size:contain;
-    padding-top: 5%;
-    padding-bottom: 5%;
+.part4 {
+  background-color: cyan;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
-.img4{
+.img4 {
   border-radius: 5%;
   padding: 5px;
   margin: 2%;
@@ -81,41 +82,41 @@ nav a {
 
 /*###### saiteja part #####*/
 
-.boxc1{
-    background-color:rgb(64,64,64);
-    color:rgb(250,250,250);
-    text-align:center;
-    padding:30px 180px 10px 190px;
-    margin:0%;
-    font-size:25px;
-  }
+.boxc1 {
+  background-color: rgb(64, 64, 64);
+  color: rgb(250, 250, 250);
+  text-align: center;
+  padding: 30px 180px 10px 190px;
+  margin: 0%;
+  font-size: 25px;
+}
 
-  .boxc{
-    background-color:rgb(64,64,64);
-    color:rgb(250,250,250);
-    text-align:center;
-    padding:30px 180px 10px 190px;
-    margin:auto;
-    font-size:15px;
-  }
+.boxc {
+  background-color: rgb(64, 64, 64);
+  color: rgb(250, 250, 250);
+  text-align: center;
+  padding: 30px 180px 10px 190px;
+  margin: auto;
+  font-size: 15px;
+}
 
-.space{
-padding:30px 80px 30px 80px;
-text-align:center;
-  }
+.space {
+  padding: 30px 80px 30px 80px;
+  text-align: center;
+}
 
-.part-raw{
-  background-color:rgb(255,204,220);
-  font-size:30px;
-  text-align:center;
+.part-raw {
+  background-color: rgb(255, 204, 220);
+  font-size: 30px;
+  text-align: center;
   padding-top: 10%;
   padding-bottom: 10%;
-  margin:auto;
+  margin: auto;
   font-family: sans-serif;
   line-height: 2;
 }
 
-.signup{
+.signup {
   font-size: 25px;
   border-radius: 5%;
   padding-top: 0.2%;
@@ -136,4 +137,3 @@ footer a {
   float: left;
   color: white;
 }
-

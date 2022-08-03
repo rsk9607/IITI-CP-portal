@@ -1,57 +1,60 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="CSS folder/signup.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="CSS folder/signup.css">
 </head>
+
 <body style="background-image: url('./raw/signupbackground.jpeg')">
-<div class="row">
-  <div class="col-75">
-    <div class="container">
-      <form action="/action_page.php">
-        <div class="row">
-          <div class="col-50">
-            <h2>Sign Up</h2>
-            <label for="fname">
-              <i class="fa-user">
-                Full Name
-              </i>
-            </label>
-            <input type="text" id="fname" name="firstname" placeholder="Name">
-            <label for="email"><i class="fa-envelope"> Email
-            </i></label>
-            <input type="text" id="email" name="email" placeholder="example@example.com">
-            
-            <div class="row">
-              <div class="col-50">
-                <label for="username"i class="fa-envelope"> 
-                  user Name
+  <div class="row">
+    <div class="col-75">
+      <div class="container">
+        <form action="/action_page.php">
+          <div class="row">
+            <div class="col-50">
+              <h2>Sign Up</h2>
+              <label for="fname">
+                <i class="fa-user">
+                  Full Name
+                </i>
+              </label>
+              <input type="text" id="fname" name="firstname" placeholder="Name">
+              <label for="email"><i class="fa-envelope"> Email
                 </i></label>
-                <input type="text" id="username" name="username" placeholder="symbols are not allowed">
+              <input type="text" id="email" name="email" placeholder="example@example.com">
+
+              <div class="row">
+                <div class="col-50">
+                  <label for="username" i class="fa-envelope">
+                    user Name
+                    </i></label>
+                  <input type="text" id="username" name="username" placeholder="symbols are not allowed">
+                </div>
+                <div class="col-50">
+                  <label for="password" class="size1"><i class="fa-envelope"> password
+                    </i></label>
+                  <input type="password" id="password" name="password" placeholder="Minimum 8 characters">
+                </div>
               </div>
-              <div class="col-50">
-                <label for="password" class="size1"><i class="fa-envelope"> password
-                </i></label>
-                <input type="password" id="password" name="password" placeholder="Minimum 8 characters">
+              <div class="row">
+                <div class="col-75">
+                  <button type="singup">
+                    Sign Up
+                  </button>
+                </div>
               </div>
             </div>
-            <div class="row">
-              <div class="col-75">
-                <button type="singup">
-                  Sign Up
-                </button>
-              </div>
-            </div>
+
+
           </div>
 
-          
-        </div>
-        
-      </form>
+        </form>
+      </div>
     </div>
   </div>
-</div>
 
 </body>
+
 </html>
