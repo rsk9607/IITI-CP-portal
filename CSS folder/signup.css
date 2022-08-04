@@ -54,7 +54,7 @@ body {
 
 
 input[type=text] {
-  width: 100%;
+  width: 50%;
   margin-bottom: 20px;
   padding: 12px;
   border: 1px solid rgb(113, 253, 253);
@@ -62,7 +62,7 @@ input[type=text] {
 }
 
 input[type=password] {
-  width: 100%;
+  width: 50%;
   margin-bottom: 20px;
   padding: 12px;
   border: 1px solid rgb(113, 253, 253);
@@ -70,7 +70,7 @@ input[type=password] {
 }
 
 button {
-  width: 100%;
+  width: 50%;
   margin-top: 20px;
   margin-bottom: 20px;
   padding: 12px;
@@ -91,6 +91,10 @@ a {
 
 hr {
   border: 1px solid lightgrey;
+}
+
+div.login{
+  text-align: center;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
