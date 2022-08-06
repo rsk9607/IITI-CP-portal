@@ -5,3 +5,32 @@ body{
 nav.navbar.navbar-expand-lg.navbar-dark.bg-dark{
     font-size: 20px;
 }
+
+div.comp1{
+    background-image: url('../raw/coding.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+img.profile{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    object-position: 200px 550px ;
+}
+
+div.col-sm-12.side{
+    background-color: azure;
+}
+
+div.container.profile{
+    margin: 100px;
+    align-items: center;
+}
+
+img.side_back{
+    width: 455px;
+
+}
