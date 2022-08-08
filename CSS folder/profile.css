@@ -14,11 +14,14 @@ div.comp1{
     padding-bottom: 100px;
 }
 
+div.profile_details{
+    margin: auto;
+
+}
+
 img.profile{
     width: 100px;
     height: 100px;
-    position: absolute;
-    object-position: 200px 550px ;
 }
 
 div.col-sm-12.side{
