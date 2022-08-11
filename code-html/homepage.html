@@ -2,16 +2,35 @@
 
 <head>
   <title>HOME</title>
+
+  <!-- our style -->
+
+
   <link rel="stylesheet" href="../CSS folder/homepage.css">
+
+
+  <!-- bootstrap -->
+
+
   <link rel="stylesheet" href="../startertemplete/bootstrap-5.2.0-dist/bootstrap-5.2.0-dist/css/bootstrap-grid.min.css">
   <link rel="stylesheet" href="../startertemplete/bootstrap-5.2.0-dist/bootstrap-5.2.0-dist/css/bootstrap.min.css">
+
+
+  <!-- fonts -->
+
+
+  <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik+Marker+Hatch&display=swap" rel="stylesheet">
+  
+
 </head>
 
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
       <a class="navbar-brand" href="../code-html/homepage.html">
-        <img src="../raw/Black and Apricot Thumbnail-Friendly Sports Logo.png" alt="" width="30" height="24"
+        <img src="../raw/Black and Apricot Thumbnail-Friendly Sports Logo.png" alt="" width="30" height="30"
           class="d-inline-block align-text-top">
         IIT-I CP-Portal
       </a>
@@ -46,13 +65,14 @@
         <form class="d-flex">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0 right">
             <li class="nav-item">
-              <button type="button" class="nav-link btn btn-outline-light pad">Sign-In</button>
+              <a class="nav-link bor" href="#">Sign-up</a>
             </li>
           </ul>
         </form>
       </div>
     </div>
   </nav>
+  <hr class="mar">
 
   <div class="container-fluid part1">
     <div class="row">
@@ -60,22 +80,53 @@
         <div class="welcome">
           <div class="card-body">
             <div class="row">
-              <div class="col-md-8 col-sm-12">
-                <h2 class="card-title">Why this website?</h2>
-
-              <p class="card-text text123 " data-aos="fade-up">
-                Tired of running across all coding websites. We are here to help!!!
-                <h4 class="sub-title">A single platform for you to access all websites!</h4>
-              </p>
+              <div class="col-lg-8  col-md-6 col-sm-12">
+                <div class="card-title website">Why this website?</div>
+                <div class="card-text text123 " data-aos="fade-up">
+                  <div class="tired">
+                    Tired of running across all coding websites. We are here to help!!!
+                  </div>
+                  <div class="sub-title single">A single platform for you to access all websites!</div>
+                </div>
+              </div>
+              <div class="col-lg-4  col-md-6 col-sm-12">
+                <img class="side-dash" src="../raw/WhatsApp_Image_2022-08-10_at_11.49.19_PM-removebg-preview.png">
+              </div>
             </div>
-            <div class="col-md-4 col-sm-12">
-              <img class="side-dash" src="../raw/WhatsApp_Image_2022-08-10_at_11.49.19_PM-removebg-preview.png">
-            </div> 
           </div>
-        </div>
         </div>
       </div>
     </div>
+  </div>
+
+
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <a href="https://en.wikipedia.org/wiki/Competitive_programming">
+        <img src="../raw/2.jpg" class="d-block w-100" alt="the competative programming">
+      </a>
+      </div>
+      <div class="carousel-item">
+        <img src="..." class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="..." class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
   </div>
 
 

@@ -3,13 +3,11 @@
 
 nav{
   width: 100%;
-  line-height: 2px;
-
 }
 
-button.nav-link.btn.pad{
-  padding-left: 1px;
-  padding-right: 1px;
+hr.mar{
+  color:white;
+  margin: 0;
 }
 
 .card-body{
@@ -17,14 +15,17 @@ button.nav-link.btn.pad{
 }
 
 div.container-fluid.part1{
-  background-color: rgb(255, 255, 255);
+  background-image: linear-gradient(to bottom, #212529 ,#4d4d4d) ;
+  padding: none;
 }
+
 
 div.card-title, 
 div.welcome{
   text-align: left;
   font-size: 30px;
   font-family: 'Edu VIC WA NT Beginner', cursive;
+  color: white;
 }
 
 div.welcome{
@@ -39,10 +40,28 @@ img.side-dash{
   height: 280px;
 }
 
-div.cardtext.text123{
-  font-family: 'Edu VIC WA NT Beginner', cursive;
-  font-size: 25px;
+
+div.card-title.website{
+  font-size: 50px;
+  font-weight: 700;
+  font-family: 'Oswald', sans-serif;
+  font-style: italic;
+  color: white
 }
+
+div.tired{
+  font-size: 40px;
+  font-family: 'Silkscreen', cursive;
+  color: white
+}
+
+div.single{
+  font-family: 'Rubik Marker Hatch', cursive;
+  font-size: 50px;
+  color: white
+}
+
+
 
 
 @keyframes fadein{
