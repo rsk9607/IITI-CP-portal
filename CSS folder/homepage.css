@@ -79,7 +79,10 @@ div.tired {
 
 div.container-fluid.caro {
   padding: none;
+  border: #000;
+  border-radius: 2rem;
 }
+
 
 div.col-lg-7.caro-left{
   padding: 0%;
