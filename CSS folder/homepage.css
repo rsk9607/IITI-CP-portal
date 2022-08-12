@@ -45,14 +45,14 @@ div.welcome {
 
 div.welcome {
   padding-top: 90px;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 5rem;
+  padding-right: 5rem;
   padding-bottom: 90px;
 }
 
 img.side-dash {
-  width: 541px;
-  height: 320px;
+  width: 401px;
+  height: 220px;
   float: right;
 }
 
@@ -77,19 +77,35 @@ div.tired {
   font-size: 30px;
 }
 
-div.container-fluid.caro {
-  padding: none;
-  border: #000;
-  border-radius: 2rem;
+div.row.caro{
+  padding: 0%;
+}
+
+div.container-fluid.caro{
+  padding: 0%;
+}
+
+div.caro{
+  padding-left: 5rem;
+  padding-right: 5rem;
 }
 
 
 div.col-lg-7.caro-left{
-  padding: 0%;
+
+  padding:0px, 20px,0px;
+  border-radius: 2rem;
+
 }
 
 div.col-lg-5.caro-right{
-  background-color: #F9F5EB;
+   background-color:aliceblue 
+   padding: 20px;
+   border-radius: 2rem;
+}
+
+img.d-block.w-100{
+  border-radius: 2rem;
 }
 
 .carousel-inner {
@@ -114,6 +130,11 @@ div.card {
   border-radius: 3rem;
 }
 
+div.cpp{
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
 img.card-img-top {
   height: 150px;
 }
@@ -123,10 +144,8 @@ p.copy {
   padding: 100px 0 100px;
 }
 
-div.row{
-  margin-left: 5rem;
-  margin-right: 5rem;
-}
+
+
 
 @keyframes fadein {
   from {
@@ -169,5 +188,15 @@ div.row{
 
   div.card {
     width: 25rem;
+  }
+
+  div.cpp{
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  div.caro{
+    padding-left: 0rem;
+    padding-right: 0rem;
   }
 }
