@@ -31,7 +31,7 @@ div.container-fluid.part1 {
   padding: none;
 }
 
-div.col-sm-12.main2{
+div.col-sm-12.main2 {
   padding: 0%;
 }
 
@@ -78,34 +78,34 @@ div.tired {
   font-size: 30px;
 }
 
-div.row.caro{
+div.row.caro {
   padding: 0%;
 }
 
-div.container-fluid.caro{
+div.container-fluid.caro {
   padding: 0%;
 }
 
-div.caro{
+div.caro {
   padding-left: 5rem;
   padding-right: 5rem;
 }
 
 
-div.col-lg-7.caro-left{
+div.col-lg-7.caro-left {
 
-  padding:0px, 20px,0px;
+  padding: 0px, 20px, 0px;
   border-radius: 2rem;
 
 }
 
-div.col-lg-5.caro-right{
-   background-color:aliceblue; 
-   padding: 20px;
-   border-radius: 2rem;
+div.col-lg-5.caro-right {
+  background-color: aliceblue;
+  padding: 20px;
+  border-radius: 2rem;
 }
 
-img.d-block.w-100{
+img.d-block.w-100 {
   border-radius: 2rem;
 }
 
@@ -113,7 +113,7 @@ img.d-block.w-100{
   max-height: 1080px;
 }
 
-div.row.websit-list{
+div.row.websit-list {
   background-color: aliceblue;
 }
 
@@ -137,12 +137,12 @@ div.card {
   margin: auto;
 }
 
-a.btn{
+a.btn {
   padding: 10px 20px 10px 20px;
 
 }
 
-div.cpp{
+div.cpp {
   padding-left: 5rem;
   padding-right: 5rem;
 }
@@ -153,7 +153,7 @@ img.card-img-top {
 
 }
 
-div.aboutus{
+div.aboutus {
   padding-left: 5rem;
   padding-right: 5rem;
   padding-top: 20px;
@@ -161,22 +161,22 @@ div.aboutus{
 
 }
 
-header.headaboutus{
-  
+header.headaboutus {
+
   font-size: 40px;
   font-weight: 600;
-  font-family:Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   text-align: center;
   margin-bottom: 10px;
   margin-top: 10px;
 }
 
-div.us{
+div.us {
   font-size: 20px;
-font-family: Georgia, 'Times New Roman', Times, serif;
-text-align: center;
-font-weight: 300;
-height: 2px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  font-weight: 300;
+  height: 2px;
 }
 
 p.copy {
@@ -187,12 +187,12 @@ p.copy {
 
 
 
-@keyframes fadein  {
+@keyframes fadein {
   0% {
     opacity: 0;
     transform: translateY(10%) rotateX(-10deg);
   }
-  
+
 
   to {
     opacity: 1;
@@ -233,12 +233,12 @@ p.copy {
     width: 25rem;
   }
 
-  div.cpp{
+  div.cpp {
     padding-left: 0;
     padding-right: 0;
   }
 
-  div.caro{
+  div.caro {
     padding-left: 0rem;
     padding-right: 0rem;
   }
