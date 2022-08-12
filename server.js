@@ -10,11 +10,10 @@ mongoose.connect("mongodb+srv://sajan123:123@cluster0.cve5f8y.mongodb.net/cp?ret
 var port =3000;
 app.use(express.static("public"));
 
-app.listen(3000)
 
-const express = require("express");
-var port = 3000;
-app.use(express.static("public"));
+
+
+
 app.listen(3000, function () {
 
     console.log("Server is working on port 3000");
