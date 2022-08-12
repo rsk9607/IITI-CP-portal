@@ -1,100 +1,28 @@
-body {
-  font-family: Arial;
-  font-size: 17px;
-  background-repeat: none;
-  background-size: cover;
-}
+.gradient-custom-3 {
+  /* fallback for old browsers */
+  background: #84fab0;
+  
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5));
+  
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5))
+  }
+  .gradient-custom-4 {
+  /* fallback for old browsers */
+  background: #84fab0;
+  
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1));
+  
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1))
+  }
 
-* {
-  box-sizing: border-box;
-}
+  div.card{
+    box-shadow: 2px 3px 5px;
+  }
 
-.row {
-  display: -ms-flexbox;
-  /* IE10 */
-  display: flex;
-  -ms-flex-wrap: wrap;
-  /* IE10 */
-  flex-wrap: wrap;
-  margin: 0 -16px;
-}
-
-.col-25 {
-  -ms-flex: 25%;
-  /* IE10 */
-  flex: 25%;
-}
-
-.col-50 {
-  -ms-flex: 50%;
-  /* IE10 */
-  flex: 50%;
-}
-
-.col-75 {
-  -ms-flex: 75%;
-  /* IE10 */
-  flex: 75%;
-}
-
-.col-25,
-.col-50,
-.col-75 {
-  padding: 0 16px;
-}
-
-.container {
-  background-color: #33323283;
-  padding: 5px 20px 15px 20px;
-  border: 1px solid rgb(114, 220, 252);
-  border-radius: 3px;
-  margin-top: 75px;
-  margin-bottom: 75px;
-}
-
-
-input[type=text] {
-  width: 50%;
-  margin-bottom: 20px;
-  padding: 12px;
-  border: 1px solid rgb(113, 253, 253);
-  border-radius: 3px;
-}
-
-input[type=password] {
-  width: 50%;
-  margin-bottom: 20px;
-  padding: 12px;
-  border: 1px solid rgb(113, 253, 253);
-  border-radius: 3px;
-}
-
-button {
-  width: 50%;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  padding: 12px;
-  border: 1px solid rgb(113, 253, 253);
-  border-radius: 3px;
-  font-size: 15px;
-}
-
-label {
-  margin-bottom: 10px;
-  display: block;
-}
-
-
-a {
-  color: #2196F3;
-}
-
-hr {
-  border: 1px solid lightgrey;
-}
-
-div.login{
-  text-align: center;
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+  input{
+    box-shadow: 2px 2px 4px;
+  }

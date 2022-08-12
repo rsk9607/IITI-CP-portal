@@ -18,84 +18,108 @@
 </head>
 
 
-<body style="background-image: url('../raw/signupbackground.jpeg')">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="../code-html/homepage.html">
-            <img src="../raw/Black and Apricot Thumbnail-Friendly Sports Logo.png" alt="" width="30" height="24"
-              class="d-inline-block align-text-top">
-            IIT-I CP-Portal
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" href="#">AboutUs</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Coderbyte</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  CP-portal
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Codewars</a></li>
-                  <li><a class="dropdown-item" href="#">LeetCode</a></li>
-                  <li><a class="dropdown-item" href="#">HackerRankLink</a></li>
-                  <li><a class="dropdown-item" href="#">CodeChef</a></li>
-                  <li><a class="dropdown-item" href="#">TopCoder</a></li>
-                </ul>
-              </li>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid nav-full">
+      <a class="navbar-brand" href="../code-html/homepage.html">
+        IIT-I CP-Portal
+        <img src="../raw/Black and Apricot Thumbnail-Friendly Sports Logo.png" alt="" width="30" height="30"
+          class="d-inline-block align-text-top">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link pad" href="#aboutus">AboutUs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              CP-portal
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Codewars</a></li>
+              <li><a class="dropdown-item" href="#">LeetCode</a></li>
+              <li><a class="dropdown-item" href="#">HackerRank</a></li>
+              <li><a class="dropdown-item" href="#">CodeChef</a></li>
             </ul>
-            <form class="d-flex">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0 right">
-              <li class="nav-item">
-                <a class="nav-link" href="#">Sign-Up</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">sign-in</a>
-              </li>
-            </ul>
-            </form>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 right">
+            <li class="nav-item">
+              <a class=" nav-link" type="submit">Register</a>
+            </li>
+            <li class="nav-item">
+              <a class=" nav-link" type="submit">LogIn</a>
+            </li>
+          </ul>
+        </form>
+      </div>
+    </div>
+  </nav>
+      <section class="vh-100 bg-image"
+      style="background-image: url('../raw/Best-Way-To-Start-With-Competitive-Programming-GeeksforGeeks-CP-Live-Course.png');
+      background-repeat: no-repeat;
+      background-size: cover;">
+      <div class="mask d-flex align-items-center h-100 gradient-custom-3">
+        <div class="container h-100">
+          <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col-12 col-md-9 col-lg-7 col-xl-6">
+              <div class="card" style="border-radius: 15px;">
+                <div class="card-body p-5">
+                  <h2 class="text-uppercase text-center mb-5">LogIn</h2>
+    
+                  <form>
+    
+                    <div class="form-outline mb-4">
+
+                      <input type="text" id="form3Example1cg" class="form-control form-control-lg" placeholder="Your Name">
+
+                    </div>
+    
+                    <!-- <div class="form-outline mb-4">
+                      <input type="email" id="form3Example3cg" class="form-control form-control-lg" placeholder="Your Email">
+
+                    </div> -->
+    
+                    <div class="form-outline mb-4">
+                      <input type="password" id="form3Example4cg" class="form-control form-control-lg" placeholder="Password">
+                    </div>
+    
+                    <!-- <div class="form-outline mb-4">
+                      <input type="password" id="form3Example4cdg" class="form-control form-control-lg" placeholder="Repeat your password">
+                    </div> -->
+    
+                    <!-- <div class="form-check d-flex justify-content-center mb-5">
+                      <input class="form-check-input me-2" type="checkbox" value="" id="form2Example3cg" />
+                      <label class="form-check-label" for="form2Example3g">
+                        I agree all statements in <a href="#!" class="text-body"><u>Terms of service</u></a>
+                      </label>
+                    </div> -->
+    
+                    <div class="d-flex justify-content-center">
+                      <button type="button"
+                        class="btn btn-success btn-block btn-lg gradient-custom-4 text-body">LogIn</button>
+                    </div>
+    
+                    <p class="text-center text-muted mt-5 mb-0">Don't have an account? <a href="#!"
+                        class="fw-bold text-body"><u>Register here</u></a></p>
+    
+                  </form>
+    
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </nav>
-    <div class="container">
-
-            <div class="login">
-                <form action="/action_page.php">
-                    <h2>Login</h2>
-                    <label for="fname">
-                        <i class="fa-user">
-                            User Name
-                        </i>
-                    </label>
-                    <input type="text" id="fname" name="Username" placeholder="User Name">
-                    <label for="Password">
-                        <i class="fa-envelope">
-                            Password
-                        </i>
-                    </label>
-                    <input type="password" id="email" name="Password" placeholder="Password">
-                    <button type="submit">
-                        Login
-                    </button>
-                </form>
-            </div>
-    </div>
-
-
-
-    </form>
-    </div>
-    </div>
+      </div>
+    </section>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
