@@ -1,47 +1,47 @@
 /*######## default ######*/
 
 
-nav{
+nav {
   width: 100%;
 }
 
-hr.mar{
-  color:white;
+hr.mar {
+  color: white;
   margin: 0;
 }
 
-.card-body{
+.card-body {
   animation: fadein 1s;
 }
 
-div.container-fluid.part1{
-  background-image: linear-gradient(to bottom, #212529 ,#4d4d4d) ;
-  padding: none;
+div.container-fluid.part1 {
+   background-image: linear-gradient(to right, #212529, #99a0b2); 
+   padding: none;
 }
 
 
-div.card-title, 
-div.welcome{
+div.card-title,
+div.welcome {
   text-align: left;
   font-size: 30px;
   font-family: 'Edu VIC WA NT Beginner', cursive;
   color: white;
 }
 
-div.welcome{
-  padding-top: 30px;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 30px;
+div.welcome {
+  padding-top: 90px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 90px;
 }
 
-img.side-dash{
+img.side-dash {
   width: 427px;
   height: 280px;
 }
 
 
-div.card-title.website{
+div.card-title.website {
   font-size: 50px;
   font-weight: 700;
   font-family: 'Oswald', sans-serif;
@@ -49,29 +49,87 @@ div.card-title.website{
   color: white
 }
 
-div.tired{
+div.tired {
   font-size: 40px;
   font-family: 'Silkscreen', cursive;
   color: white
 }
 
-div.single{
+div.single {
   font-family: 'Rubik Marker Hatch', cursive;
   font-size: 50px;
   color: white
 }
 
+.carousel-inner{
+  max-height: 1080px;
+}
 
+div.container-fluid.website-list{
+  background-color: #002b80;
+}
 
+div.col-lg-4.hackranker{
+  padding: 30px;
+  padding-bottom: 40px;
+  text-align: center;
+}
 
-@keyframes fadein{
-  from{
+div.card{
+  border-color: #212529;
+  padding: 10px;
+  width: 30rem;
+  text-align: center;
+}
+
+img.card-img-top{
+  height: 150px;
+}
+
+@keyframes fadein {
+  from {
     opacity: 0;
     transform: translateY(100%) rotateX(-5deg);
   }
-  to{
+
+  to {
     opacity: 1;
     transform: translateY(0%) rotateX(0deg);
-    
+
   }
 }
+
+@media only screen and(max-width: 1400px){
+  div.card{
+    width: 10rem;
+    text-align: center;
+  } 
+}
+
+@media only screen and (max-width:600px) {
+  div.welcome {
+    padding-top: 90px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 90px;
+  }
+
+  img.side-dash {
+    padding-top: 10px;
+    width: 320px;
+    height: 210px;
+  }
+
+  div.hackranker{
+    padding: 30px;
+    text-align: center;
+  }
+
+  div.card{
+    width: 25rem;
+  }
+}
+
+
+
+  
