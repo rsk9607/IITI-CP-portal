@@ -30,6 +30,10 @@ div.container-fluid.part1 {
   padding: none;
 }
 
+div.col-sm-12.main2{
+  padding: 0%;
+}
+
 
 div.card-title,
 div.welcome {
@@ -77,12 +81,20 @@ div.container-fluid.caro {
   padding: none;
 }
 
+div.col-lg-7.caro-left{
+  padding: 0%;
+}
+
+div.col-lg-5.caro-right{
+  background-color: #F9F5EB;
+}
+
 .carousel-inner {
   max-height: 1080px;
 }
 
-div.container-fluid.website-list {
-  background-color: #002b80;
+div.row.websit-list{
+  background-color: aliceblue;
 }
 
 div.col-lg-4.hackranker {
@@ -108,6 +120,10 @@ p.copy {
   padding: 100px 0 100px;
 }
 
+div.row{
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
 
 @keyframes fadein {
   from {
