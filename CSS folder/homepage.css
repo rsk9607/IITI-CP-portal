@@ -14,9 +14,20 @@ hr.mar {
   animation: fadein 1s;
 }
 
+
+div.container-fluid.nav-full {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+a.nav-link {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
 div.container-fluid.part1 {
-   background-image: linear-gradient(to right, #212529, #99a0b2); 
-   padding: none;
+  background-color: white;
+  padding: none;
 }
 
 
@@ -25,7 +36,7 @@ div.welcome {
   text-align: left;
   font-size: 30px;
   font-family: 'Edu VIC WA NT Beginner', cursive;
-  color: white;
+
 }
 
 div.welcome {
@@ -36,55 +47,67 @@ div.welcome {
 }
 
 img.side-dash {
-  width: 427px;
-  height: 280px;
+  width: 541px;
+  height: 320px;
+  float: right;
 }
 
 
 div.card-title.website {
-  font-size: 50px;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 4rem;
+  font-family: "SF Pro Display", "SF Pro Icon", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+
+  /* font-size: 50px;
   font-weight: 700;
   font-family: 'Oswald', sans-serif;
-  font-style: italic;
-  color: white
+  font-style: italic; */
+
 }
 
 div.tired {
-  font-size: 40px;
-  font-family: 'Silkscreen', cursive;
-  color: white
+  font-size: 30px;
 }
 
-div.single {
-  font-family: 'Rubik Marker Hatch', cursive;
-  font-size: 50px;
-  color: white
+div.container-fluid.caro {
+  padding: none;
 }
 
-.carousel-inner{
+.carousel-inner {
   max-height: 1080px;
 }
 
-div.container-fluid.website-list{
+div.container-fluid.website-list {
   background-color: #002b80;
 }
 
-div.col-lg-4.hackranker{
+div.col-lg-4.hackranker {
   padding: 30px;
   padding-bottom: 40px;
   text-align: center;
 }
 
-div.card{
+div.card {
   border-color: #212529;
   padding: 10px;
   width: 30rem;
   text-align: center;
+  border-radius: 3rem;
 }
 
-img.card-img-top{
+img.card-img-top {
   height: 150px;
 }
+
+p.copy {
+  text-align: center;
+  padding: 100px 0 100px;
+}
+
 
 @keyframes fadein {
   from {
@@ -99,11 +122,11 @@ img.card-img-top{
   }
 }
 
-@media only screen and(max-width: 1400px){
-  div.card{
+@media only screen and(max-width: 1400px) {
+  div.card {
     width: 10rem;
     text-align: center;
-  } 
+  }
 }
 
 @media only screen and (max-width:600px) {
@@ -120,16 +143,12 @@ img.card-img-top{
     height: 210px;
   }
 
-  div.hackranker{
+  div.hackranker {
     padding: 30px;
     text-align: center;
   }
 
-  div.card{
+  div.card {
     width: 25rem;
   }
 }
-
-
-
-  
