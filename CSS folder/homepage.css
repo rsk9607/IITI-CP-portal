@@ -5,6 +5,7 @@ nav {
   width: 100%;
 }
 
+
 hr.mar {
   color: white;
   margin: 0;
@@ -52,7 +53,7 @@ div.welcome {
 
 img.side-dash {
   width: 401px;
-  height: 220px;
+  height: 280px;
   float: right;
 }
 
@@ -99,7 +100,7 @@ div.col-lg-7.caro-left{
 }
 
 div.col-lg-5.caro-right{
-   background-color:aliceblue 
+   background-color:aliceblue; 
    padding: 20px;
    border-radius: 2rem;
 }
@@ -119,15 +120,26 @@ div.row.websit-list{
 div.col-lg-4.hackranker {
   padding: 30px;
   padding-bottom: 40px;
+  align-items: center;
   text-align: center;
+  justify-content: space-around;
+
 }
 
 div.card {
   border-color: #212529;
   padding: 10px;
-  width: 30rem;
-  text-align: center;
+  width: 25rem;
+  align-items: center;
   border-radius: 3rem;
+  box-shadow: 3px 2px 5px;
+  justify-content: space-around;
+  margin: auto;
+}
+
+a.btn{
+  padding: 10px 20px 10px 20px;
+
 }
 
 div.cpp{
@@ -136,22 +148,50 @@ div.cpp{
 }
 
 img.card-img-top {
-  height: 150px;
+  height: 80px;
+  width: 100%;
+
+}
+
+div.aboutus{
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-top: 20px;
+  padding-bottom: 60px;
+
+}
+
+header.headaboutus{
+  
+  font-size: 40px;
+  font-weight: 600;
+  font-family:Helvetica, Arial, sans-serif;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+div.us{
+  font-size: 20px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+text-align: center;
+font-weight: 300;
+height: 2px;
 }
 
 p.copy {
   text-align: center;
-  padding: 100px 0 100px;
+  padding: 60px 0 10px;
 }
 
 
 
 
-@keyframes fadein {
-  from {
+@keyframes fadein  {
+  0% {
     opacity: 0;
-    transform: translateY(100%) rotateX(-5deg);
+    transform: translateY(10%) rotateX(-10deg);
   }
+  
 
   to {
     opacity: 1;
@@ -164,6 +204,7 @@ p.copy {
   div.card {
     width: 10rem;
     text-align: center;
+    justify-content: space-around;
   }
 }
 
@@ -174,6 +215,7 @@ p.copy {
     padding-right: 20px;
     padding-bottom: 90px;
   }
+
 
   img.side-dash {
     padding-top: 10px;

@@ -27,7 +27,7 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container-fluid nav-full">
       <a class="navbar-brand" href="../code-html/homepage.html">
         IIT-I CP-Portal
@@ -41,7 +41,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link pad" href="#">AboutUs</a>
+            <a class="nav-link pad" href="#aboutus">AboutUs</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Contact</a>
@@ -53,16 +53,18 @@
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="#">Codewars</a></li>
               <li><a class="dropdown-item" href="#">LeetCode</a></li>
-              <li><a class="dropdown-item" href="#">HackerRankLink</a></li>
+              <li><a class="dropdown-item" href="#">HackerRank</a></li>
               <li><a class="dropdown-item" href="#">CodeChef</a></li>
-              <li><a class="dropdown-item" href="#">TopCoder</a></li>
             </ul>
           </li>
         </ul>
         <form class="d-flex">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0 right">
             <li class="nav-item">
-              <a class="nav-link" href="#">Sign-up</a>
+              <a class=" nav-link" type="submit">Register</a>
+            </li>
+            <li class="nav-item">
+              <a class=" nav-link" type="submit">LoginIn</a>
             </li>
           </ul>
         </form>
@@ -100,31 +102,29 @@
       <div class="row caro">
         <div class="col-lg-7 caro-left">
           <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            </div>
             <div class="carousel-inner">
-              <div class="carousel-item active">
+              <div class="carousel-item active" data-bs-interval="3000">
                 <a href="https://en.wikipedia.org/wiki/Competitive_programming">
                   <img src="../raw/2.jpg" class="d-block w-100 main1" alt="the competative programming">
                 </a>
               </div>
-              <div class="carousel-item">
+              <div class="carousel-item" data-bs-interval="3000">
                 <a href="#">
                   <img src="../raw/IIT I soc.jpg" class="d-block w-100" alt="your experience">
                 </a>
               </div>
-              <div class="carousel-item">
+              <div class="carousel-item" data-bs-interval="3000">
                 <img src="../raw/IIT I soc (1).jpg" class="d-block w-100" alt="make-it">
               </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-              data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-              data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
           </div>
         </div>
         <div class="col-lg-5 caro-right">
@@ -148,7 +148,7 @@
               <h5 class="card-title"><b>Hackerrank</b></h5>
               <p class="card-text"><b>HackerRank</b> is the market-leading technical assessment and remote interview
                 solution for hiring developers. Learn how to hire technical talent from anywhere!</p>
-              <a href="https://www.hackerrank.com/" class="btn btn-primary">Jump over to it</a>
+              <a href="https://www.hackerrank.com/" class="btn btn-outline-success">Go</a>
             </div>
           </div>
         </div>
@@ -159,7 +159,7 @@
               <h5 class="card-title"><b> CodeChef's coding competitions.</b></h5>
               <p class="card-text">Learn competitive programming with the help of<b> CodeChef's coding competitions.</b>
                 Take part in these online coding contests to level up your skills.</p>
-              <a href="https://www.codechef.com/" class="btn btn-primary">Jump over to it</a>
+              <a href="https://www.codechef.com/" class="btn btn-outline-secondary">Go</a>
             </div>
           </div>
         </div>
@@ -170,7 +170,7 @@
               <h5 class="card-title"><b>Codewars</b></h5>
               <p class="card-text">A coding practice website for all programming levels – Join a community of over 3
                 million developers and improve your coding skills in over 55 programming ...</p>
-              <a href="https://www.codewars.com/" class="btn btn-primary">Jump over to it</a>
+              <a href="https://www.codewars.com/" class="btn btn-outline-danger">Go</a>
             </div>
           </div>
         </div>
@@ -178,38 +178,53 @@
       <div class="row">
         <div class="col-lg-4 col-sm-12 hackranker">
           <div class="card">
-            <img src="../raw/hackerrank-logo.jpg" class="card-img-top" alt="hackerrank-logo">
+            <img src="../raw/LeetCode_Logo_black_with_text.svg.png" class="card-img-top" alt="hackerrank-logo">
             <div class="card-body">
-              <h5 class="card-title"><b>Hackerrank</b></h5>
-              <p class="card-text"><b>HackerRank</b> is the market-leading technical assessment and remote interview
-                solution for hiring developers. Learn how to hire technical talent from anywhere!</p>
-              <a href="https://www.hackerrank.com/" class="btn btn-primary">Jump over to it</a>
+              <h5 class="card-title"><b>LeetCode</b></h5>
+              <p class="card-text"><b>LeetCode</b> is the best platform to help you enhance your skills, expand your
+                knowledge .This is a social platform for preparing technical interviews for companies in the IT
+                industry.</p>
+              <a href="https://leetcode.com/" class="btn btn-outline-dark">Go</a>
             </div>
           </div>
         </div>
         <div class="col-lg-4 col-sm-12 hackranker">
           <div class="card">
-            <img src="../raw/hackerrank-logo.jpg" class="card-img-top" alt="hackerrank-logo">
+            <img src="../raw/e1ff7eee0ebd6ecae1c3a3fabaf10b9adedd7bfe.png" class="card-img-top" alt="hackerrank-logo">
             <div class="card-body">
-              <h5 class="card-title"><b>Hackerrank</b></h5>
-              <p class="card-text"><b>HackerRank</b> is the market-leading technical assessment and remote interview
-                solution for hiring developers. Learn how to hire technical talent from anywhere!</p>
-              <a href="#" class="btn btn-primary">Jump over to it</a>
+              <h5 class="card-title"><b>Codeforces.</b></h5>
+              <p class="card-text"><b>Codeforces.</b> is a website that hosts competitive programming contests. It is
+                maintained by a group of competitive programmers from ITMO University led by Mikhail Mirzayanov.</p>
+              <a href="https://codeforces.com/" class="btn btn-outline-danger">Go</a>
             </div>
           </div>
         </div>
         <div class="col-lg-4 col-sm-12 hackranker">
           <div class="card">
-            <img src="../raw/hackerrank-logo.jpg" class="card-img-top" alt="hackerrank-logo">
+            <img src="../raw/gfg-new-logo.png" class="card-img-top" alt="hackerrank-logo">
             <div class="card-body">
-              <h5 class="card-title"><b>Hackerrank</b></h5>
-              <p class="card-text"><b>HackerRank</b> is the market-leading technical assessment and remote interview
-                solution for hiring developers. Learn how to hire technical talent from anywhere!</p>
-              <a href="#" class="btn btn-primary">Jump over to it</a>
+              <h5 class="card-title"><b>GeeksforGeeks</b></h5>
+              <p class="card-text"><b>GeeksforGeeks</b> Computer Science portal for geeks. It contains well written,
+                well thought and well explained computer science and programming articles,</p>
+              <a href="https://www.geeksforgeeks.org/" class="btn btn-outline-success">Go</a>
             </div>
           </div>
         </div>
       </div>
+    </div>
+  </div>
+
+
+
+  <div class="containerfluid">
+    <div class="aboutus" id="aboutus">
+      <header class="headaboutus">
+        AboutUs
+      </header>
+      <div class="us">
+        We are students of IIT Indore. This is our first web development project.Main Aim of this website to to ease the process of coding by providing people all resources at a single place.
+      </div>
+
     </div>
   </div>
 
