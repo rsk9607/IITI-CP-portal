@@ -13,6 +13,9 @@ Mir Raze<br>
 
 Our GitHub Link is https://github.com/rsk9607/IITI-CP-portal
 
+<br>
+<br>
+
 <h1><center>SUMMARY</center></h1>
 
 Our Website’s Aim is to ease the process of practicing competitive programming.We made
@@ -65,4 +68,49 @@ here is our front-end part
 <br>
 
 <img src="./report/OPENING.png">
+
+<br>
+<br>
+
+This is our website on start Adaptable home page
+
+<br>
+<br>
+
+<img src="./report/OPENING.png">
+
+<br>
+<br>
+
+This is part of homepage which direct the links to coding websites
+
+<br>
+<br>
+
+<img src="./report/SININ.png">
+<img src="./report/SINUP.png">
+
+<br>
+<br>
+
+This are our register page and login page
+
+<br>
+<br>
+
+
+<h1><center>OUR Experience</center></h1>
+
+It offered the chance to gain new
+abilities and exploring the new web
+development areas as well. It's a
+fantastic chance to meet individuals who
+care about the same technology and
+have the same passion as you do.
+Basically, it's a location where you have
+the opportunity to work and work with
+similar-minded people on projects
+
+<h2><center>Thanks</center></h2>
+
 
