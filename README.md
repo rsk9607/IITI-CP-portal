@@ -77,7 +77,7 @@ This is our website on start Adaptable home page
 <br>
 <br>
 
-<img src="./report/OPENING.png">
+<img src="./report/CODING.png">
 
 <br>
 <br>
