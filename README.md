@@ -1,1 +1,1 @@
-<h1><center>IIT INDORE'S CODING PLATFORM</center></h1>
+<h1><center>IIT-I CP PORTAL</center></h1>
