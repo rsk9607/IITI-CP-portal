@@ -8,6 +8,11 @@ Sai Teja<br>
 TEAM MENTOR: <br>
 Mir Raze<br>
 
+<br>
+<br>
+
+Our GitHub Link is https://github.com/rsk9607/IITI-CP-portal
+
 <h1><center>SUMMARY</center></h1>
 
 Our Website’s Aim is to ease the process of practicing competitive programming.We made
@@ -38,7 +43,26 @@ Adaptive website and Responsive Website <br>
 <li>MONGODB</li>
 <li>MONGOOSE</li>
 </ul>
+<br>
+<br>
+<br>
 
+<h1><center>TECHNICAL REPORT</center></h1>
 
+we used html and css and bootstrap to build our webpages.We created a server using nodejs and express which
+when starts, we can host our website locally.We created a database using mangodb and mongoose and then stored
+the information of users registered.So we linked the webpages internally and when the server starts one can easily
+navigate throughout the website.We dint complete our backened development due to time constraints. Our plan is
+to use APIs and retrieve information from the coding sites. And then display them in our website. But for now we
+did link the webpages directly using a tags.
 
+<br>
+<br>
+
+here is our front-end part
+
+<br>
+<br>
+
+<img src="./report/OPENING.png">
 
